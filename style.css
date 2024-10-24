@@ -71,7 +71,7 @@ margin-left: 92%;
 }
 .container span{
     background-color: #e5e5e5;
-    padding: 12.8px 12.8px 12.8px 13.8px;
+    padding: 13px 12.8px 12.8px 13.8px;
     position: relative;
     left: -39px;
     top: 32.35px;
@@ -222,11 +222,336 @@ margin-left: 92%;
      backdrop-filter: blur(5px); 
 }
 
-/* .grid div {
-} */
-.no1 img{
+/* .no1 img{
 
-}
+} */
 .no3{
     margin-top: 55px;
+}
+.flex-box{
+margin-top: 50px;
+width: 600px;
+height: 100hv;
+border: #000 solid 5px;
+display: grid;
+grid-template-columns: auto auto auto;
+
+}
+.item1{
+    flex-grow: 3;
+    width: 300px;
+    height: 200px;
+    background-image: url(image/microsoft-1-770x340.jpg);
+    background-repeat: no-repeat;
+    color: #0000ff;
+    
+}
+.item2{
+    width: 200px;
+    height: 100px;
+    background-image:url(image/accp-1-600x450.jpg) ;
+    background-repeat: no-repeat;
+}
+.item3{
+    width: 200px;
+    height: 100px;
+    background-image: url(image/artificial-intelligence-scaled-600x450.jpg);
+    background-repeat: no-repeat;
+}
+.item4{
+    width: 200px;
+    height: 100px;
+    background-image:url(image/multimedia-1-600x450.jpg) ;
+    background-repeat: no-repeat;
+}
+.item5{
+    width: 200px;
+    height: 100px;
+    background-image:url(image/oracle-solaris-1-370x155.jpg) ;
+    background-repeat: no-repeat;
+}
+.item6{
+    width: 200px;
+    height: 100px;
+    background-image:url(image/ADIM-COURSE-OUTLINE-600x450.jpg) ;
+    background-repeat: no-repeat;
+}
+span{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 50px;
+}
+span img{
+    width: 95%;
+    margin-top: 50px;
+}
+.courses{
+    background-color: #f1f1f1;
+    font-family: 'Montserrat';
+    /* letter-spacing: 2px; */
+}
+.courses h1{
+    text-align: center;
+    font-weight:lighter;
+    font-family: 'Montserrat';
+}
+.courses .button1{
+    margin-left: 15px;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    color: #0000ff;
+    font-size: 12px;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.courses .button1:hover{
+    background-color: #0000ff;
+    color: #fff;
+}
+.grid2{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 15px;
+    transition: 1s;
+}
+.grid-object{
+    width: 300px;
+    height: 330px;
+    border:  1px solid #d1d1d1;
+    box-shadow: #fff 5px 5px 20px;
+    background-color: #fff;
+}
+
+.p1{
+    font-size: 13px;
+    color: #adadad;
+    margin-left: 20px;
+}
+.p2{
+    position: relative;
+    top: -40px;
+    font-size: 13px;
+    color: #adadad;
+    margin-left: 20px;
+}
+.b1{
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
+}
+.free{
+margin-left: 250px;
+position: relative;
+top: -40px;
+}
+.line1{
+    color: #dfd9d9;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+.b2{
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
+}
+/* .grid-object img{
+    width: 300px;
+} */
+.b{
+    font-weight: 900;
+font-size: 20px;
+ }
+.dix { 
+    background-color: #dbd6d6;
+    width: 300px;
+    height: 150px;
+}
+.japa{
+    position: relative;
+    top: -40px;
+    margin-left: 20px;
+}
+.line2{
+    color: #dfd9d9;
+    position: relative;
+    top: -55px;
+    left: 20px;
+}
+.free2{
+    margin-left: 250px;
+position: relative;
+top: -70px;
+}
+.p3{
+    /* position: relative;
+    top: -40px; */
+    font-size: 13px;
+    color: #adadad;
+    margin-left: 20px;
+}
+.b3{
+    position: relative;
+    left: 20px;
+}
+.line3{
+    color: #dfd9d9;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.members-only{
+    text-align: end;
+    position: relative;
+    top: -30px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.members-only2{
+    text-align: end;
+    position: relative;
+    top: -90px;
+    font-size: 12px;
+    margin-right: 10px;
+}.members-only3{
+    text-align: end;
+    position: relative;
+    top: -65px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.only{
+    position: relative;
+    left: -25px;
+}
+.drop-down{
+    position: relative;
+    background-color: #ffffff;
+    width:  370px;
+    height: 370px;
+    left: -20px;
+    top: -370px;
+    padding: 25px;
+    font-family:'Montserrat';
+    font-size: 14px;
+    z-index: 2;
+    box-shadow: #adadad 5px 5px  30px ;
+    display: none;
+}
+.grid-object:hover .drop-down{
+    display: block;
+    
+}
+#grid-object5:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -450px;
+}
+
+#grid-object4:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -400px;
+}
+#grid-object3:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -400px;
+}
+#grid-object2:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -400px;
+}
+#grid-object1:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -370px;
+}
+#grid-object8:hover .drop-down{
+    position: relative;
+    left: -50px;
+    top: -350px;
+}
+
+
+
+.drop-down img{
+    width: 50px;
+}
+.drop-down .next{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+.drop-down .button{
+    width: 350px;
+    height: 45px;
+    color: #fff;
+    background-color: #0000ff;
+    border: none;
+    border-radius: 0%;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+    /* left: -15px; */
+}.drop-down .button:hover{
+    background-color: #00ff9d;
+}
+.drop-down li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.drop-down li img{
+    width: 30px;
+}
+.drop-down li small{
+    color: #adadad;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
+.drop-down .next:hover{
+    color: #0000ff;
+}
+
+.drop-down  .free4{
+    text-align: end;
+    margin-right: 30px;
+    position: relative;
+    top: -40px;
+}
+.drop-down .admin{
+    position: relative;
+    top: -20px;
+    left: -8px;
+}
+.button2{
+    margin-top: 50px;
+    margin-left: 515px;
+    width: 120px;
+    height: auto;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+    background-color: #0000ff;
+    text-transform: uppercase;
+}
+.button2:hover{
+    background-color: #0e0e74;
+    animation: ease-in 5s 1;
+    
 }
