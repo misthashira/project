@@ -313,7 +313,7 @@ span img{
     color: #fff;
 }
 .grid2{
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -421,7 +421,8 @@ top: -70px;
     top: -90px;
     font-size: 12px;
     margin-right: 10px;
-}.members-only3{
+}
+.members-only3{
     text-align: end;
     position: relative;
     top: -65px;
@@ -554,4 +555,78 @@ top: -70px;
     background-color: #0e0e74;
     animation: ease-in 5s 1;
     
+}
+.grid3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.grid-box{
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+.dix2{ 
+    background-color: #dbd6d6;
+    width: 250px;
+    height: 150px;
+}
+.free5{
+      margin-left: 200px;
+      position: relative;
+      top: -45px;
+      right:-8px;
+}
+.d-line{
+    color: #dfd9d9;
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+.d-line2{
+    color: #dfd9d9;
+    position: relative;
+    top: -35px;
+    left: 10px;
+}
+.free55{
+    margin-left: 200px;
+    position: relative;
+    top: -50px;
+    right: -8px;
+}
+.members-only5{
+    text-align: end;
+    position: relative;
+    top: -70px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.members-only5 img{
+    text-align: end;
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+    margin-right: 0px;
+}
+.popular-courses{
+    background-color: #273044;
+}
+.hard h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: #fff;
+}
+ .hard p {
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+}
+.hard{
 }
