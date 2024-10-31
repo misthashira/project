@@ -47,7 +47,7 @@ padding-top: 1%;
     display: inline-block;
 }
 .header ul li a{
-    margin-right: 26px;
+    margin-right: 20px;
     text-decoration: none;
     color: #c7c4c4;
     font-size: 13px;
@@ -57,7 +57,7 @@ padding-top: 1%;
 }
 #id{
 margin-top: -2.5%;
-margin-left: 92%;
+margin-left: 95%;
 }
 .container{
     margin-top: 50px;
@@ -276,6 +276,196 @@ grid-template-columns: auto auto auto;
     background-image:url(image/ADIM-COURSE-OUTLINE-600x450.jpg) ;
     background-repeat: no-repeat;
 }
+.table1{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+
+}
+
+.grids1{
+    background-color: #0e0e74;
+    width: 760px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.grids1:hover img{
+    opacity: 0.3;
+}
+.grids1:hover{
+    opacity: 2;
+}
+.grids1 img{
+    width: 760px;
+    height: 350px;
+    opacity: 0.9;
+}
+.dp1{
+    position: relative;
+    top: -150px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.dp1 span{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: -8px;
+}
+.grids2{
+    background-color: #0e0e74;
+    width: 369px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+.dp2{
+    position: relative;
+    top: -130px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.dp2 span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -8px;
+}
+.grids2:hover img{
+    opacity: 0.3;
+}
+.grids2:hover{
+    opacity: 2;
+}
+.grids2 img{
+    width: 369px;
+    height: 170px;
+    opacity: 0.9;
+}
+.grids3{
+    background-color: #0e0e74;
+    width: 369px;
+    height: 170px;
+    margin-bottom: 20px;
+} 
+.dp3{
+    position: relative;
+    top: -130px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.dp3 span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -8px;
+}
+.grids3:hover img{
+    opacity: 0.3;
+}
+.grids3:hover{
+    opacity: 2;
+}
+.grids3 img{
+    width: 369px;
+    height: 170px;
+    opacity: 0.9;
+}
+.grids4{
+    background-color: #0e0e74;
+    width: 369px;
+    height: 170px;
+    margin-right: 20px;
+}
+.dp4{
+    position: relative;
+    top: -130px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.dp4 span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -8px;
+}
+.grids4:hover img{
+    opacity: 0.3;
+}
+.grids4:hover{
+    opacity: 2;
+}
+.grids4 img{
+    width: 369px;
+    height: 170px;
+    opacity: 0.9;
+}
+.grids5{
+    background-color: #0e0e74;
+    width: 369px;
+    height: 170px;
+    margin-right: 20px;
+}
+.dp5{
+    position: relative;
+    top: -130px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.dp5 span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -8px;
+}
+.grids5:hover img{
+    opacity: 0.3;
+}
+.grids5:hover{
+    opacity: 2;
+}
+.grids5 img{
+    width: 369px;
+    height: 170px;
+    opacity: 0.9;
+}
+.grids6{
+    background-color: #adadad;
+    width: 369px;
+    height: 170px;
+    position: relative;
+    top: -10px;
+}
+.dp6{
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.dp6 span{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -8px;
+}
+.grids6:hover{
+    background-color: #0e0e74;
+}
+/* .grids6:hover{
+    opacity: 2;
+} */
+/* .grids{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} */
 span{
     width: 95%;
     margin-left: 2.5%;
@@ -574,6 +764,12 @@ top: -70px;
     background-color: #fff;
     margin-bottom: 100px;
 }
+.grid-box:hover{
+    background-color: #747478;
+}
+.grid-box .b1:hover, .japa:hover, .b3:hover {
+    color: #0000ff;
+}
 .dix2{ 
     background-color: #dbd6d6;
     width: 250px;
@@ -782,8 +978,11 @@ top: -70px;
  .ul2{
     float: right;
     position: relative;
-    top: -230px;
-    left: -250px;
+    top: -235px;
+    left: -205px;
+ }
+ .ul2 li a:hover ,.ul1 li a:hover{
+    color: #0000ff;
  }
  /* .footer3{
     display: grid;
